@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e04be9121bbfbc1419b4d018460c3e13
+guid: e25ae1a2484ae3a4c84c2b0aeb6e1200
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: SolidColor
     2300000: //RootNode
     3300000: //RootNode
-    4300000: group23
+    4300000: pCube133
     6400000: //RootNode
     9500000: //RootNode
   externalObjects:

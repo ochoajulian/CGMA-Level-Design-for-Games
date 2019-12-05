@@ -1,22 +1,44 @@
 fileFormatVersion: 2
-guid: e04be9121bbfbc1419b4d018460c3e13
+guid: 2ad760be9bd80024c82790f7e9598584
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: SolidColor
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: group23
-    6400000: //RootNode
-    9500000: //RootNode
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: pCoin
+  - first:
+      1: 100004
+    second: transform1
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: pCoin
+  - first:
+      4: 400004
+    second: transform1
+  - first:
+      21: 2100000
+    second: lambert_coin
+  - first:
+      23: 2300000
+    second: pCoin
+  - first:
+      33: 3300000
+    second: pCoin
+  - first:
+      43: 4300000
+    second: pCoin
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: SolidColor
-    second: {fileID: 2100000, guid: 3ee96c6113ee6cf4ebc45efbe751c74c, type: 2}
+      name: lambert_coin
+    second: {fileID: 2100000, guid: 6e1d36c4bbd37d54f9ea183e4f5fd656, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -49,8 +71,9 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -58,18 +81,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -78,10 +102,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -91,12 +116,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
