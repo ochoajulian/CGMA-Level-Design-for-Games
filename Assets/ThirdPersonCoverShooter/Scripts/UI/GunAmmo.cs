@@ -38,7 +38,7 @@ namespace CoverShooter
         private void LateUpdate()
         {
             if (Motor != null && Motor.Gun != null)
-                _text.text = Motor.Gun.Name + " " + Motor.Gun.Clip.ToString();
+                _text.text = Motor.Gun.Name + ": " + Motor.Gun.Clip.ToString();
 
             if (Application.isPlaying)
             {
